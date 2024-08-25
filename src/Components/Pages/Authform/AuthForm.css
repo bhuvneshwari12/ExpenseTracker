@@ -1,0 +1,104 @@
+/* AuthForm.css */
+
+/* Background image */
+.login-form-container {
+  background-image: url('https://images.pexels.com/photos/7130535/pexels-photo-7130535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Adjust the path to your image */
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.7rem;
+  height: 100vh; /* Adjust to your preference */
+  width: 203vh;
+  margin-left: -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form container */
+.login-form {
+  background-color: #8d2b2b; /* White with some transparency */
+  padding: 40px;
+  margin-left: 1rem;
+  border-radius: 10px;
+  max-width: 550px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Form title */
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+/* Form fields */
+.login-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-form input[type='email'],
+.login-form input[type='password'] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Login button */
+.login-form .login-button {
+  width: 100%;
+  max-width: 10rem;
+  padding: 10px;
+  background-color: #242527; /* Blue */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form .login-button:hover {
+  background-color: #27d58c; /* Darker blue on hover */
+}
+
+/* Forgot password link */
+.login-form .forgot {
+  font-size: larger;
+  display: block;
+  margin-bottom: 10px;
+  color: #b9c6d5; /* Blue */
+  text-decoration: none;
+}
+
+.login-form .forgot:hover {
+  text-decoration: underline;
+}
+
+/* Toggle button */
+.login-form .toggle {
+  background-color: transparent;
+  border: none;
+  color: #007bff; /* Blue */
+  cursor: pointer;
+}
+
+.login-form .toggle:hover {
+  text-decoration: underline;
+}
+
+
+.forgot{
+  color: rgb(7, 22, 22);
+  margin-top: 1rem;
+
+}
+
+.toggle{
+  color: white;
+}

@@ -1,0 +1,27 @@
+.navbarr {
+    background-color: rgb(21, 24, 23);
+    height: 3.6rem;
+    padding: 1rem;
+}
+
+.homee,
+.loginss,
+.logout {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.2rem 1rem;
+    transition: color 0.3s; /* Add transition effect for smoother hover */
+}
+
+/* Apply hover effect */
+.homee:hover,
+.loginss:hover,
+.logout:hover {
+    color: rgb(135, 152, 158);
+}
+
+.logout {
+    margin-left: 64rem; /* Use auto margin to push logout link to the right */
+    font-weight: bolder;
+}

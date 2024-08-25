@@ -1,0 +1,21 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set body height to fill the viewport height */
+    width: 100vw; /* Set body width to fill the viewport width */
+  }
+  
+  .dark-mode {
+    background-color: #222; /* Set your desired dark mode background color */
+    color: #fff; /* Set text color for dark mode */
+  }
+  
+
+  /* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    
+  }

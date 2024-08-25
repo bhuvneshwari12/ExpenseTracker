@@ -1,0 +1,91 @@
+
+.video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.expense-tracker-container {
+  
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.053); 
+  border-radius: 10px;
+  max-width: 100%;
+  width: 100%;
+  
+  text-align: center;
+}
+
+
+.dark-mode {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.complete, .verify, button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complete {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+
+.verify {
+  background-color: #28a745;
+  color: white;
+}
+
+button[type="submit"] {
+  background-color: #17a2b8;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input[type="number"], input[type="text"], select {
+  max-width: 100%;
+  width: 40%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus{
+  border: 3px solid rgb(46, 42, 165);
+}
